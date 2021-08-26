@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Cash Register</title>
+    <title>Cash Register Manager</title>
   </head>
   <body>
     <div class="container">
-      <h1>Cash Resgiter Manager</h1>
-      <p>
+      <h1 class="heading">Cash Register Manager</h1>
+      <p class="desc">
         Enter the bill amount and cash given by the customer and know minimum
         number of notes to return.
       </p>
 
-      <label for="bill-amount">Bill Amount: </label>
-      <input type="text" id="bill-amount" />
+      <label for="bill-amount" class="input-label">Bill Amount: </label>
+      <input type="text" id="bill-amount" class="input" />
 
-      <label for="cash-given">Cash Given: </label>
-      <input type="text" id="cash-given" />
+      <label for="cash-given" class="input-label">Cash Given: </label>
+      <input type="text" id="cash-given" class="input" />
 
-      <button id="check-button">Check</button>
+      <button id="check-button" class="check-button">Check</button>
       <p id="error"></p>
 
       <table class="change-table">
@@ -46,11 +46,25 @@
           <td>20</td>
           <td>10</td>
           <td>5</td>
-          <td></td>
           <td>1</td>
         </tr>
       </table>
     </div>
+    <footer>
+      <p>© | 2021 | malaykhakhar</p>
+      <ul class="footer-list">
+        <li>
+          <a href="https://github.com/malaykhakhar" target="_blank"
+            ><img src="/images/github.svg" alt="Github logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/MalayKhakhar" target="_blank"
+            ><img src="/images/twitter.svg" alt="Twitter logo"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
   <script src="index.js"></script>
 </html>
