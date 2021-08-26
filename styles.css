@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
 
 :root {
-  --primary-color: #34d399;
+  --primary-color: #10b981;
 }
 
 * {
@@ -12,6 +12,7 @@
 
 body {
   background-image: linear-gradient(#a7f3d0, #ecfdf5);
+  /* background-image: linear-gradient(#ecfdf5, #a7f3d0); */
   font-family: "Kaisei Tokumin", serif;
 }
 
