@@ -16,15 +16,18 @@
       </p>
 
       <label for="bill-amount" class="input-label">Bill Amount: </label>
-      <input type="text" id="bill-amount" class="input" />
+      <input type="text" class="input" id="bill-amount" />
+      <button class="check-button" id="next-btn">Next</button>
 
-      <label for="cash-given" class="input-label">Cash Given: </label>
-      <input type="text" id="cash-given" class="input" />
+      <label for="cash-given" class="input-label" id="label-cash"
+        >Cash Given:
+      </label>
+      <input type="text" class="input" id="cash-given" />
 
-      <button id="check-button" class="check-button">Check</button>
+      <button class="check-button" id="check-button">Check</button>
       <p id="error"></p>
 
-      <table class="change-table">
+      <table class="change-table" id="change-table">
         <caption>
           Return Change
         </caption>
@@ -50,7 +53,7 @@
         </tr>
       </table>
     </div>
-    <footer>
+    <footer class="footer" id="footer">
       <p>© | 2021 | malaykhakhar</p>
       <ul class="footer-list">
         <li>
